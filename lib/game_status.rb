@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def full?(board)
-  board.each do |cell|
+  for cell in 0...8
     if !position_taken(board, cell) then
       return false
     end
