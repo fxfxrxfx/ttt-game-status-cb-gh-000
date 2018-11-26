@@ -66,4 +66,5 @@ def winner(board)
   else
     win?(board)
     return winner
+  end
 end
