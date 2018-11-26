@@ -60,6 +60,6 @@ def over?(board)
   end
 end
 
-def winner(row = nil)
+def winner(row = [nil])
   return row[0]
 end
