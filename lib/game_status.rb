@@ -17,7 +17,10 @@ WIN_COMBINATIONS = [
 
 def full?(board)
   board.each do |cell|
-    if(cell == " ") return false
+    if(cell == " ")
+      return false
+    end
+  return true
 end
 
 def draw?(board)
