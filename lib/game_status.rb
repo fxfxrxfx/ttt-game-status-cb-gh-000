@@ -52,7 +52,7 @@ end
 
 def over?(board)
   if(!full?(board)) then
-    return false 
+    return false
   else
     return draw?(board) || !won?(board).nil?
   end
