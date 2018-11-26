@@ -15,7 +15,6 @@ WIN_COMBINATIONS = [
   [2,5,8]
 ]
 
-winner = nil
 
 def full?(board)
   board.each do |cell|
