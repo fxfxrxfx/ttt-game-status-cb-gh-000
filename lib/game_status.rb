@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def full?(board)
-  return true
+  return false
 end
 
 def draw?(board)
