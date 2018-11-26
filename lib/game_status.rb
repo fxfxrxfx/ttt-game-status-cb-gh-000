@@ -20,6 +20,7 @@ def full?(board)
     if(cell == " ")
       return false
     end
+  end
   return true
 end
 
