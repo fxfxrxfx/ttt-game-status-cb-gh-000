@@ -30,7 +30,7 @@ end
 
 def won?(board)
   9.each do |i|
-    if position_taken(board, i) then return nil end
+    if position_taken(board, i) then return false end
   end
   WIN_COMBINATIONS.each do |win_combination|
     # win_combination is a 3 element array of indexes that compose a win, [0,1,2]
