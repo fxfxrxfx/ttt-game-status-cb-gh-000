@@ -31,7 +31,7 @@ end
 def won?(board)
   if !full?(board) then return false end
   WIN_COMBINATIONS.each do |win_combination|
-    
+    if(win_combination = [1, 2, 3]) then return win_combination end
   end
   return nil
 end
