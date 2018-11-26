@@ -41,11 +41,11 @@ def won?(board)
     position_3 = board[win_index_3] # load the value of the board at win_index_3
 
     if (position_1 == "X" && position_2 == "X" && position_3 == "X") then
+      return win_combination
     end
   end
   if !full?(board) then return false end
-  
-  return [0, 1, 2] # return the win_combination indexes that won.
+
 
   return nil
 end
