@@ -16,6 +16,8 @@ WIN_COMBINATIONS = [
 ]
 
 def full?(board)
+  board.each do |cell|
+    if(cell == " ") return false
   return false
 end
 
