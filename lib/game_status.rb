@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def full?(board)
-  for cell in 0...8
+  for cell in 0...8 do
     if !position_taken(board, cell) then
       return false
     end
