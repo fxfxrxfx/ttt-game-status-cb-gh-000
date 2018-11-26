@@ -82,7 +82,5 @@ def winner(board)
         return "O"
       end
     end
-    if !full?(board) then return false end
-    return nil
   end
 end
