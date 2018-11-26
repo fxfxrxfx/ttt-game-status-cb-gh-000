@@ -45,7 +45,7 @@ def won?(board)
       return win_combination # return the win_combination indexes that won.
     end
   end
-  return false
+  return nil
 end
 
 def over?(board)
