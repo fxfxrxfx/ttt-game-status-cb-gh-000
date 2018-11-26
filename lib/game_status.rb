@@ -63,5 +63,6 @@ end
 def winner(board)
   if(draw?(board)) then
     return nil
+  else 
   end
 end
