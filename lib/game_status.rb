@@ -14,7 +14,7 @@ WIN_COMBINATIONS = [
   [1,4,7],
   [2,5,8]
 ]
-
+winner 
 def full?(board)
   board.each do |cell|
     if(cell == " ")
@@ -63,5 +63,6 @@ end
 def winner(board)
   if(draw?(board)) then
     return nil
-  end
+  else
+    board.each 
 end
