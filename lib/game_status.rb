@@ -47,5 +47,4 @@ def won?(board)
       false
     end
   end
-  return draw?(board)
 end
