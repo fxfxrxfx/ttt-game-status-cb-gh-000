@@ -61,5 +61,5 @@ def over?(board)
 end
 
 def winner(board)
-  board
+  if(draw?(board)) return nil
 end
