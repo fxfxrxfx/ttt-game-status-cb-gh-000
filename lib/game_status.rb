@@ -78,5 +78,5 @@ def winner(board)
       winner = "O"
       return "O"
     end
-  
+  end
 end
