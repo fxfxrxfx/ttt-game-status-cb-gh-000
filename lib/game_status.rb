@@ -62,6 +62,6 @@ def over?(board)
   end
 end
 
-def winner
-  
+def winner(row)
+  return row[0]
 end
