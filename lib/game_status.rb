@@ -42,6 +42,8 @@ def won?(board)
 
     if (position_1 == "X" && position_2 == "X" && position_3 == "X")then
       return win_combination
+    elsif (position_1 == "O" && position_2 == "O" && position_3 == "O") then
+      return win_combination
     end
   end
   if !full?(board) then return false end
