@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 
 def full?(board)
   board.each do |cell|
-    if cell == " " then
+    if !position_taken(board, cell) then
       return false
     end
   end
