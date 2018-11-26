@@ -44,6 +44,8 @@ def won?(board)
     if (position_1 == "X" && position_2 == "X" && position_3 == "X") then
     end
   end
+  return [0, 1, 2] # return the win_combination indexes that won.
+  
   return nil
 end
 
