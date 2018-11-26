@@ -42,7 +42,7 @@ def won?(board)
     position_3 = board[win_index_3] # load the value of the board at win_index_3
 
     if (position_1 == "X" && position_2 == "X" && position_3 == "X") then
-      puts "#{win_index_3}, #{win_index_2}, #{win_index_1}"
+      puts "EL JUEGO SE GANÓ ASÍ #{win_index_3}, #{win_index_2}, #{win_index_1}"
       return win_combination # return the win_combination indexes that won.
     end
   end
