@@ -29,7 +29,7 @@ def draw?(board)
 end
 
 def won?(board)
-  if 0 == 0 then return false end
+  if !full?(board) then return false end
   WIN_COMBINATIONS.each do |win_combination|
     # win_combination is a 3 element array of indexes that compose a win, [0,1,2]
     # grab each index from the win_combination that composes a win.
